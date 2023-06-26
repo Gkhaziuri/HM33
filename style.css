@@ -1,0 +1,58 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+    border: 1px;
+    width: 1440px;
+    border-radius: 50px;
+}
+.weather-header {
+    background-color: rgb(73 45 110);
+    border-radius: 25px 25px 0 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-name {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.icon-name span {
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.weather-cards {
+    background-color: #4a4f83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+.weather-info {
+    min-height: 700px;
+    padding: 30px;
+    background-color: rgb(85, 23, 112);
+    border: 1px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 25px;
+}
